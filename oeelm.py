@@ -261,7 +261,7 @@ params_file = open(sys.argv[2], "r")
 output_file = open(sys.argv[3], "w")
 
 params = { line.split("=")[0].strip() : eval(line.split("=")[1]) 
-           for line in open("default_params")   }
+           for line in open("params/default_params")   }
 for line in params_file :
     params[line.split("=")[0].strip()] = eval(line.split("=")[1])
 params_file.close()
