@@ -34,6 +34,7 @@ an email to joshua.auerbach@epfl.ch
 This code was used for the basis of the experiments reported in 
 
 Auerbach, Joshua E., Chrisantha Fernando, and Dario Floreano.
+Online Extreme Evolutionary Learning Machines.
 14th International Conference on the Synthesis and Simulation of 
 Living Systems (ALife XIV). New York, NY, July, 2014. To Appear. 
 
