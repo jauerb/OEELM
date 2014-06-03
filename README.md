@@ -47,9 +47,9 @@ e.g.
  python oeelm.py 1 params/params_evolution_100_features evolution_100_features_seed_1.dat
 
 
-
-DEPENDENCIES
---------------
+---------------------
+3. Dependencies
+---------------------
 
 The only dependencies for this code, are 
 
