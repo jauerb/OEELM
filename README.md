@@ -45,3 +45,18 @@ To run an experiment, do
 e.g.
 
  python oeelm.py 1 params/params_evolution_100_features evolution_100_features_seed_1.dat
+
+
+
+DEPENDENCIES
+--------------
+
+The only dependencies for this code, are 
+
+(1) A Python interpreter (http://www.python.org/).  The code has been tested with Python 2.7.5
+
+and
+
+(2) NumPy -- the fundamental package for scientific computing with Python (http://www.numpy.org/).  The code has been tested with NumPy 1.7.1
+
+An easy approach to get up and running with Python and NumPy is to install the Anaconda distribution from http://continuum.io/downloads
