@@ -308,7 +308,12 @@ ema_history = np.zeros(10000)
 exponential_moving_avg = 0.0
 
 for iteration in range(params["NUM_ITERATIONS"]) :
-    random_input = rng.choice([0,1],  params["NUM_INPUT_VARS"])
+
+    if params["CONTINUOUS_INPUTS"] :
+        random_input = rng.rand(params["NUM_INPUT_VARS"])
+    else :
+        random_input = rng.choice([0,1],  params["NUM_INPUT_VARS"])
+
     if params["NON_STATIONARY"] :
         target_val = (target_functions[(iteration / 100000) % 2
                                       ].get_output(random_input) + 
