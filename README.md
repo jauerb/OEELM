@@ -1,10 +1,20 @@
 Online Extreme Evolutionary Learning Machines
 
-By Joshua E. Auerbach
+Code written by Joshua E. Auerbach
 
 http://people.epfl.ch/joshua.auerbach
 
 joshua.auerbach@epfl.ch
+
+This code was used for the basis of the experiments reported in 
+
+Auerbach, Joshua E., Chrisantha Fernando, and Dario Floreano.
+Online Extreme Evolutionary Learning Machines.
+14th International Conference on the Synthesis and Simulation of 
+Living Systems (ALife XIV). New York, NY, July, 2014.
+
+Full Text Available: https://mitpress.mit.edu/sites/default/files/titles/content/alife14/ch076.html
+
 
 Documentation for this package is included in this README file.  
 
@@ -30,14 +40,6 @@ The software is provided as is; however, we will do our best to maintain it
 and accommodate suggestions. If you want to be notified of future releases of 
 the software or have questions, comments, bug reports or suggestions, send
 an email to joshua.auerbach@epfl.ch
-
-This code was used for the basis of the experiments reported in 
-
-Auerbach, Joshua E., Chrisantha Fernando, and Dario Floreano.
-Online Extreme Evolutionary Learning Machines.
-14th International Conference on the Synthesis and Simulation of 
-Living Systems (ALife XIV). New York, NY, July, 2014. To Appear. 
-
 
 To run an experiment, do
 
